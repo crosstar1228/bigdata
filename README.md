@@ -23,11 +23,17 @@ Action: `count`, `collect`, `show,head`, `take`
 ![img2.png](img/img2.png)
 
 ### Basic
-- [pyspark_basic_1](https://github.com/crosstar1228/bigdata/blob/main/pyspark_basic_1.ipynb): `SparContext`,`RDD`의 개념과 함께 `Transformation`에 해당하는 함수(`map()`, `filter()`, `flatmap()`)를 담았습니다.
-- [pyspark_basic_2](https://github.com/crosstar1228/bigdata/blob/main/Basic/pyspark_basic_2.ipynb):Action(`collect()`, `take()`, `count()` , `reduce()`, `saveAsTextFile()`)에 관한 함수를 담았습니다.
-- [pyspark_basic_3(SQL)](https://github.com/crosstar1228/bigdata/blob/main/Basic/pyspark_basic_3_SQL.ipynb): pyspark의 `SQLContext` 생성을 통해 `select`, `join`, `groupby-agg-alias`, `describe`, `show` 등의 기본 명령어를 다뤄 봅니다.
+- [pyspark_basic_1](https://github.com/crosstar1228/bigdata/blob/main/pyspark_basic_1.ipynb)
+  `SparContext`,`RDD`의 개념과 함께 `Transformation`에 해당하는 함수(`map`, `filter`, `flatmap`)를 담았습니다.
+- [pyspark_basic_2](https://github.com/crosstar1228/bigdata/blob/main/Basic/pyspark_basic_2.ipynb)
+  Action(`collect()`, `take`, `count` , `reduce`, `saveAsTextFile`)에 관한 함수를 담았습니다.
+- [pyspark_basic_3(SQL)](https://github.com/crosstar1228/bigdata/blob/main/Basic/pyspark_basic_3_SQL.ipynb)
+  pyspark의 `SQLContext` 생성을 통해 `select`, `join`, `groupby-agg-alias`, `describe`, `show` 등의 기본 명령어를 다뤄 봅니다.
 
 ### Hands-on
-- [pyspark_handson_1](https://github.com/crosstar1228/bigdata/blob/main/hands-on/pyspark_handson_1.ipynb): DataFrame 형태로 csv 파일을 불러오고 전처리를 해봅니다.
-- [pyspark_handson_2](https://github.com/crosstar1228/bigdata/blob/main/hands-on/pyspark_handson_2.ipynb): pyspark `filter`, `map`, `reducebykey` 를 이용하여 wordcounter를 구현하고, titanic dataset에서 사망자와 생존자의 평균 나이를 구해봅니다.
-- [pyspark_handson_3(MLlib)](https://github.com/crosstar1228/bigdata/blob/main/hands-on/pyspark_handson_3(MLlib).ipynb): MLlib를 활용하여 binary classification을 진행하여 봅시다. 전처리부터 모델 학습 및 평가, hyperparameter tuning까지의 일련의 과정입니다.
+- [pyspark_handson_1](https://github.com/crosstar1228/bigdata/blob/main/hands-on/pyspark_handson_1.ipynb)
+  DataFrame 형태로 csv 파일을 불러오고 전처리를 해봅니다.
+- [pyspark_handson_2](https://github.com/crosstar1228/bigdata/blob/main/hands-on/pyspark_handson_2.ipynb)
+  pyspark `filter`, `map`, `reducebykey` 를 이용하여 wordcounter를 구현하고, titanic dataset에서 사망자와 생존자의 평균 나이를 구해봅니다.
+- [pyspark_handson_3(MLlib)](https://github.com/crosstar1228/bigdata/blob/main/hands-on/pyspark_handson_3(MLlib).ipynb)
+  MLlib를 활용하여 binary classification을 진행하여 봅시다. 전처리부터 모델 학습 및 평가, hyperparameter tuning까지의 일련의 과정입니다.
