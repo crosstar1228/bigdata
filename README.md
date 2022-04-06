@@ -23,7 +23,7 @@ Action: `count`, `collect`, `show,head`, `take`
 ![img2.png](img/img2.png)
 
 ### Basic
-- [pyspark_basic_1](https://github.com/crosstar1228/bigdata/blob/main/pyspark_basic_1.ipynb)
+- [pyspark_basic_1](https://github.com/crosstar1228/bigdata/blob/main/Basic/pyspark_basic_1.ipynb)
   - `SparContext`,`RDD`의 개념과 함께 `Transformation`에 해당하는 함수(`map`, `filter`, `flatmap`)를 담았습니다.
 - [pyspark_basic_2](https://github.com/crosstar1228/bigdata/blob/main/Basic/pyspark_basic_2.ipynb)
   - Action(`collect()`, `take`, `count` , `reduce`, `saveAsTextFile`)에 관한 함수를 담았습니다.
